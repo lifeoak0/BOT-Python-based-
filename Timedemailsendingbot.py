@@ -5,10 +5,10 @@ import schedule
 import time
 
 def send_email():
-    from_email = 'your_email@gmail.com'
-    to_email = 'recipient@example.com'
-    subject = 'Scheduled Email'
-    message = 'This is a scheduled email sent using Python!'
+    from_email = ''
+    to_email = ''
+    subject = ''
+    message = ''
 
     # 创建一个带有附件的邮件对象
     msg = MIMEMultipart()

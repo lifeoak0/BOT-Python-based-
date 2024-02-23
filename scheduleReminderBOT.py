@@ -3,7 +3,7 @@ from datetime import datetime, timedelta
 import smtplib
 from email.mime.text import MIMEText
 
-# 读取日程表
+# 读取日程表csv
 def read_schedule(file_path):
     schedule = []
     with open(file_path, "r") as file:

@@ -3,7 +3,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
 def send_email(subject, message, to_email, from_email, password):
-    # 创建一个带有附件的邮件对象
+    # 创建一个带有附件的邮件对象,
     msg = MIMEMultipart()
     msg['From'] = ''
     msg['To'] = ''

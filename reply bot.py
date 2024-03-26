@@ -2,7 +2,7 @@ import imaplib
 import email
 from email.header import decode_header
 
-# 个人邮箱和密码输入
+# 个人邮箱和密码输入.
 email_address = 'your_email@gmail.com'
 password = 'your_password'
 

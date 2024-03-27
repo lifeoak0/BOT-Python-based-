@@ -1,6 +1,6 @@
 import requests
 
-# 您的Steam API密钥
+# 您的Steam API密钥.
 steam_api_key = "2408F29A1D63072285E3E619A858F571"
 
 # 获取Galgame游戏列表
